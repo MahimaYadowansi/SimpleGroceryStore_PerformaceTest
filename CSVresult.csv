@@ -1,0 +1,301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1739696184096,2533,Get all products,200,OK,Product Request 1-18,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2532,0,2082
+1739696183946,2597,Get all products,200,OK,Product Request 1-15,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2597,0,2196
+1739696184200,2447,Get all products,200,OK,Product Request 1-20,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2447,0,2018
+1739696183997,3028,Get all products,200,OK,Product Request 1-16,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,3028,0,2235
+1739696183681,2955,Get all products,200,OK,Product Request 1-3,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2955,0,2548
+1739696183846,2812,Get all products,200,OK,Product Request 1-13,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2811,0,2385
+1739696183681,2713,Get all products,200,OK,Product Request 1-5,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2712,0,2389
+1739696183795,2838,Get all products,200,OK,Product Request 1-12,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2838,0,2403
+1739696183681,2864,Get all products,200,OK,Product Request 1-2,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2863,0,2453
+1739696183681,2945,Get all products,200,OK,Product Request 1-9,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2945,0,2474
+1739696183680,2735,Get all products,200,OK,Product Request 1-4,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2735,0,2415
+1739696184045,3256,Get all products,200,OK,Product Request 1-17,text,true,,2076,144,20,20,https://simple-grocery-store-api.glitch.me/products,3256,0,2167
+1739696183697,2771,Get all products,200,OK,Product Request 1-10,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2771,0,2421
+1739696183747,2903,Get all products,200,OK,Product Request 1-11,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2903,0,2487
+1739696183682,2486,Get all products,200,OK,Product Request 1-6,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2472,0,2120
+1739696183893,2551,Get all products,200,OK,Product Request 1-14,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2551,0,2204
+1739696184130,2509,Get all products,200,OK,Product Request 1-19,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2508,0,2096
+1739696183682,2769,Get all products,200,OK,Product Request 1-7,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2766,0,2415
+1739696183680,2784,Get all products,200,OK,Product Request 1-1,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2783,0,2431
+1739696183681,2963,Get all products,200,OK,Product Request 1-8,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,2963,0,2545
+1739696189393,465,Get single product,200,OK,Product Request 1-4,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,458,0,0
+1739696189879,9,Debug Sampler,200,OK,Product Request 1-4,text,true,,362,0,20,20,null,0,0,0
+1739696189413,526,Get single product,200,OK,Product Request 1-1,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,521,0,0
+1739696189939,1,Debug Sampler,200,OK,Product Request 1-1,text,true,,362,0,20,20,null,0,0,0
+1739696189395,562,Get single product,200,OK,Product Request 1-5,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,320,0,0
+1739696189957,1,Debug Sampler,200,OK,Product Request 1-5,text,true,,362,0,20,20,null,0,0,0
+1739696189393,570,Get single product,200,OK,Product Request 1-16,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,329,0,0
+1739696189963,1,Debug Sampler,200,OK,Product Request 1-16,text,true,,363,0,20,20,null,0,0,0
+1739696189391,592,Get single product,200,OK,Product Request 1-15,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,335,0,0
+1739696189984,0,Debug Sampler,200,OK,Product Request 1-15,text,true,,362,0,20,20,null,0,0,0
+1739696189406,681,Get single product,200,OK,Product Request 1-11,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,439,0,0
+1739696189395,697,Get single product,200,OK,Product Request 1-17,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,692,0,0
+1739696190093,0,Debug Sampler,200,OK,Product Request 1-11,text,true,,363,0,20,20,null,0,0,0
+1739696190092,1,Debug Sampler,200,OK,Product Request 1-17,text,true,,363,0,20,20,null,0,0,0
+1739696189393,704,Get single product,200,OK,Product Request 1-3,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,699,0,0
+1739696190099,0,Debug Sampler,200,OK,Product Request 1-3,text,true,,362,0,20,20,null,0,0,0
+1739696189412,754,Get single product,200,OK,Product Request 1-7,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,512,0,0
+1739696190167,0,Debug Sampler,200,OK,Product Request 1-7,text,true,,362,0,20,20,null,0,0,0
+1739696189407,768,Get single product,200,OK,Product Request 1-18,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,522,0,0
+1739696190175,0,Debug Sampler,200,OK,Product Request 1-18,text,true,,363,0,20,20,null,0,0,0
+1739696189392,784,Get single product,200,OK,Product Request 1-2,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,780,0,0
+1739696190176,0,Debug Sampler,200,OK,Product Request 1-2,text,true,,362,0,20,20,null,0,0,0
+1739696189391,788,Get single product,200,OK,Product Request 1-13,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,547,0,0
+1739696190180,0,Debug Sampler,200,OK,Product Request 1-13,text,true,,362,0,20,20,null,0,0,0
+1739696189392,793,Get single product,200,OK,Product Request 1-20,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,537,0,0
+1739696189391,795,Get single product,200,OK,Product Request 1-12,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,789,0,0
+1739696190187,0,Debug Sampler,200,OK,Product Request 1-12,text,true,,363,0,20,20,null,0,0,0
+1739696190187,1,Debug Sampler,200,OK,Product Request 1-20,text,true,,362,0,20,20,null,0,0,0
+1739696189397,802,Get single product,200,OK,Product Request 1-10,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,794,0,0
+1739696190200,0,Debug Sampler,200,OK,Product Request 1-10,text,true,,362,0,20,20,null,0,0,0
+1739696189889,316,Get all products,200,OK,Product Request 1-4,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,316,0,0
+1739696189940,305,Get all products,200,OK,Product Request 1-1,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,305,0,0
+1739696189410,848,Get single product,200,OK,Product Request 1-19,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,596,0,0
+1739696189392,866,Get single product,200,OK,Product Request 1-9,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,614,0,0
+1739696190258,1,Debug Sampler,200,OK,Product Request 1-19,text,true,,363,0,20,20,null,0,0,0
+1739696190259,0,Debug Sampler,200,OK,Product Request 1-9,text,true,,362,0,20,20,null,0,0,0
+1739696189987,321,Get all products,200,OK,Product Request 1-15,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,321,0,0
+1739696189967,343,Get all products,200,OK,Product Request 1-16,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,343,0,0
+1739696190100,329,Get all products,200,OK,Product Request 1-3,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,328,0,0
+1739696190093,513,Get all products,200,OK,Product Request 1-11,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,513,0,0
+1739696190093,529,Get all products,200,OK,Product Request 1-17,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,529,0,0
+1739696190168,539,Get all products,200,OK,Product Request 1-7,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,539,0,0
+1739696190177,530,Get all products,200,OK,Product Request 1-2,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,530,0,0
+1739696190188,522,Get all products,200,OK,Product Request 1-12,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,522,0,0
+1739696190201,512,Get all products,200,OK,Product Request 1-10,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,512,0,0
+1739696190188,533,Get all products,200,OK,Product Request 1-20,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,533,0,0
+1739696190176,549,Get all products,200,OK,Product Request 1-18,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,548,0,0
+1739696190182,548,Get all products,200,OK,Product Request 1-13,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,548,0,0
+1739696190259,471,Get all products,200,OK,Product Request 1-19,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,471,0,0
+1739696190251,492,Get single product,200,OK,Product Request 1-1,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,487,0,0
+1739696190744,0,Debug Sampler,200,OK,Product Request 1-1,text,true,,362,0,20,20,null,0,0,0
+1739696190260,556,Get all products,200,OK,Product Request 1-9,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,555,0,0
+1739696190314,510,Get single product,200,OK,Product Request 1-16,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,507,0,0
+1739696190824,0,Debug Sampler,200,OK,Product Request 1-16,text,true,,363,0,20,20,null,0,0,0
+1739696189408,1543,Get single product,200,OK,Product Request 1-6,text,true,,18250,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,1535,0,0
+1739696189411,1543,Get single product,200,OK,Product Request 1-14,text,true,,18250,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,1537,0,0
+1739696190954,0,Debug Sampler,200,OK,Product Request 1-6,text,true,,361,0,20,20,null,0,0,0
+1739696190955,0,Debug Sampler,200,OK,Product Request 1-14,text,true,,363,0,20,20,null,0,0,0
+1739696189392,1579,Get single product,200,OK,Product Request 1-8,text,true,,18250,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,1328,0,0
+1739696190972,0,Debug Sampler,200,OK,Product Request 1-8,text,true,,362,0,20,20,null,0,0,0
+1739696190209,764,Get single product,200,OK,Product Request 1-4,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,516,0,0
+1739696190974,0,Debug Sampler,200,OK,Product Request 1-4,text,true,,362,0,20,20,null,0,0,0
+1739696189958,1046,Get all products,200,OK,Product Request 1-5,text,true,,2076,144,20,20,https://simple-grocery-store-api.glitch.me/products,1046,0,0
+1739696190710,310,Get single product,200,OK,Product Request 1-7,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,301,0,0
+1739696191021,0,Debug Sampler,200,OK,Product Request 1-7,text,true,,362,0,20,20,null,0,0,0
+1739696190728,318,Get single product,200,OK,Product Request 1-18,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,309,0,0
+1739696191046,1,Debug Sampler,200,OK,Product Request 1-18,text,true,,363,0,20,20,null,0,0,0
+1739696190311,753,Get single product,200,OK,Product Request 1-15,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,500,0,0
+1739696191066,0,Debug Sampler,200,OK,Product Request 1-15,text,true,,362,0,20,20,null,0,0,0
+1739696190433,634,Get single product,200,OK,Product Request 1-3,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,389,0,0
+1739696191069,0,Debug Sampler,200,OK,Product Request 1-3,text,true,,362,0,20,20,null,0,0,0
+1739696190723,393,Get single product,200,OK,Product Request 1-10,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,382,0,0
+1739696191117,0,Debug Sampler,200,OK,Product Request 1-10,text,true,,362,0,20,20,null,0,0,0
+1739696190744,377,Get all products,200,OK,Product Request 1-1,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,376,0,0
+1739696190736,410,Get single product,200,OK,Product Request 1-13,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,400,0,0
+1739696191147,1,Debug Sampler,200,OK,Product Request 1-13,text,true,,362,0,20,20,null,0,0,0
+1739696190610,544,Get single product,200,OK,Product Request 1-11,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,303,0,0
+1739696191155,0,Debug Sampler,200,OK,Product Request 1-11,text,true,,363,0,20,20,null,0,0,0
+1739696190625,559,Get single product,200,OK,Product Request 1-17,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,310,0,0
+1739696191186,0,Debug Sampler,200,OK,Product Request 1-17,text,true,,363,0,20,20,null,0,0,0
+1739696190825,401,Get all products,200,OK,Product Request 1-16,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,401,0,0
+1739696190822,410,Get single product,200,OK,Product Request 1-9,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,398,0,0
+1739696191233,0,Debug Sampler,200,OK,Product Request 1-9,text,true,,362,0,20,20,null,0,0,0
+1739696190712,557,Get single product,200,OK,Product Request 1-12,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,307,0,0
+1739696191270,0,Debug Sampler,200,OK,Product Request 1-12,text,true,,363,0,20,20,null,0,0,0
+1739696190725,549,Get single product,200,OK,Product Request 1-20,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,301,0,0
+1739696191274,0,Debug Sampler,200,OK,Product Request 1-20,text,true,,362,0,20,20,null,0,0,0
+1739696190955,318,Get all products,200,OK,Product Request 1-6,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,318,0,0
+1739696190738,545,Get single product,200,OK,Product Request 1-19,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,303,0,0
+1739696191284,1,Debug Sampler,200,OK,Product Request 1-19,text,true,,363,0,20,20,null,0,0,0
+1739696190956,349,Get all products,200,OK,Product Request 1-14,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,349,0,0
+1739696190974,342,Get all products,200,OK,Product Request 1-4,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,342,0,0
+1739696191022,301,Get all products,200,OK,Product Request 1-7,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,301,0,0
+1739696191048,313,Get all products,200,OK,Product Request 1-18,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,313,0,0
+1739696191070,307,Get all products,200,OK,Product Request 1-3,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,306,0,0
+1739696191069,321,Get all products,200,OK,Product Request 1-15,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,320,0,0
+1739696191123,318,Get single product,200,OK,Product Request 1-1,text,true,,18249,183,20,20,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,310,0,0
+1739696191442,0,Debug Sampler,200,OK,Product Request 1-1,text,true,,362,0,20,20,null,0,0,0
+1739696191119,323,Get all products,200,OK,Product Request 1-10,text,true,,2075,144,20,20,https://simple-grocery-store-api.glitch.me/products,323,0,0
+1739696191156,297,Get all products,200,OK,Product Request 1-11,text,true,,2075,144,19,19,https://simple-grocery-store-api.glitch.me/products,297,0,0
+1739696191187,308,Get all products,200,OK,Product Request 1-17,text,true,,2075,144,19,19,https://simple-grocery-store-api.glitch.me/products,307,0,0
+1739696191228,326,Get single product,200,OK,Product Request 1-16,text,true,,18249,183,19,19,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,316,0,0
+1739696191554,0,Debug Sampler,200,OK,Product Request 1-16,text,true,,363,0,19,19,null,0,0,0
+1739696191234,320,Get all products,200,OK,Product Request 1-9,text,true,,2075,144,19,19,https://simple-grocery-store-api.glitch.me/products,319,0,0
+1739696191271,300,Get all products,200,OK,Product Request 1-12,text,true,,2075,144,18,18,https://simple-grocery-store-api.glitch.me/products,300,0,0
+1739696191275,315,Get all products,200,OK,Product Request 1-20,text,true,,2075,144,18,18,https://simple-grocery-store-api.glitch.me/products,314,0,0
+1739696191287,320,Get all products,200,OK,Product Request 1-19,text,true,,2075,144,18,18,https://simple-grocery-store-api.glitch.me/products,320,0,0
+1739696191391,339,Get single product,200,OK,Product Request 1-15,text,true,,18249,183,18,18,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,330,0,0
+1739696191733,0,Debug Sampler,200,OK,Product Request 1-15,text,true,,362,0,18,18,null,0,0,0
+1739696191456,388,Get single product,200,OK,Product Request 1-11,text,true,,18249,183,17,17,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,378,0,0
+1739696191846,0,Debug Sampler,200,OK,Product Request 1-11,text,true,,363,0,17,17,null,0,0,0
+1739696191307,561,Get single product,200,OK,Product Request 1-14,text,true,,18249,183,16,16,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,310,0,0
+1739696191869,1,Debug Sampler,200,OK,Product Request 1-14,text,true,,363,0,16,16,null,0,0,0
+1739696191325,559,Get single product,200,OK,Product Request 1-7,text,true,,18249,183,16,16,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,309,0,0
+1739696191886,0,Debug Sampler,200,OK,Product Request 1-7,text,true,,362,0,16,16,null,0,0,0
+1739696191322,567,Get single product,200,OK,Product Request 1-4,text,true,,18249,183,16,16,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,315,0,0
+1739696191890,1,Debug Sampler,200,OK,Product Request 1-4,text,true,,362,0,15,15,null,0,0,0
+1739696191275,618,Get single product,200,OK,Product Request 1-6,text,true,,18249,183,14,14,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,374,0,0
+1739696191894,0,Debug Sampler,200,OK,Product Request 1-6,text,true,,361,0,14,14,null,0,0,0
+1739696190973,932,Get all products,200,OK,Product Request 1-8,text,true,,2075,144,14,14,https://simple-grocery-store-api.glitch.me/products,932,0,0
+1739696191379,542,Get single product,200,OK,Product Request 1-3,text,true,,18249,183,14,14,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,304,0,0
+1739696191922,0,Debug Sampler,200,OK,Product Request 1-3,text,true,,362,0,14,14,null,0,0,0
+1739696191364,563,Get single product,200,OK,Product Request 1-18,text,true,,18249,183,13,13,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,313,0,0
+1739696191927,0,Debug Sampler,200,OK,Product Request 1-18,text,true,,363,0,13,13,null,0,0,0
+1739696191448,486,Get single product,200,OK,Product Request 1-10,text,true,,18249,183,12,12,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,477,0,0
+1739696191935,0,Debug Sampler,200,OK,Product Request 1-10,text,true,,362,0,12,12,null,0,0,0
+1739696191610,410,Get single product,200,OK,Product Request 1-19,text,true,,18249,183,11,11,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,400,0,0
+1739696192021,0,Debug Sampler,200,OK,Product Request 1-19,text,true,,363,0,11,11,null,0,0,0
+1739696190711,1359,Get single product,200,OK,Product Request 1-2,text,true,,18250,183,10,10,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,1351,0,0
+1739696192070,1,Debug Sampler,200,OK,Product Request 1-2,text,true,,362,0,10,10,null,0,0,0
+1739696191498,669,Get single product,200,OK,Product Request 1-17,text,true,,18249,183,10,10,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,422,0,0
+1739696192168,0,Debug Sampler,200,OK,Product Request 1-17,text,true,,363,0,10,10,null,0,0,0
+1739696191556,620,Get single product,200,OK,Product Request 1-9,text,true,,18249,183,9,9,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,371,0,0
+1739696192177,0,Debug Sampler,200,OK,Product Request 1-9,text,true,,362,0,9,9,null,0,0,0
+1739696191895,316,Get all products,200,OK,Product Request 1-6,text,true,,2075,144,8,8,https://simple-grocery-store-api.glitch.me/products,316,0,0
+1739696191873,338,Get all products,200,OK,Product Request 1-14,text,true,,2075,144,8,8,https://simple-grocery-store-api.glitch.me/products,338,0,0
+1739696191149,1076,Get all products,200,OK,Product Request 1-13,text,true,,2076,144,8,8,https://simple-grocery-store-api.glitch.me/products,1075,0,0
+1739696191573,670,Get single product,200,OK,Product Request 1-12,text,true,,18249,183,8,8,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,426,0,0
+1739696192243,1,Debug Sampler,200,OK,Product Request 1-12,text,true,,363,0,8,8,null,0,0,0
+1739696191592,674,Get single product,200,OK,Product Request 1-20,text,true,,18249,183,7,7,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,665,0,0
+1739696192266,0,Debug Sampler,200,OK,Product Request 1-20,text,true,,362,0,7,7,null,0,0,0
+1739696191007,1346,Get single product,200,OK,Product Request 1-5,text,true,,18250,183,6,6,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,1338,0,0
+1739696192355,0,Debug Sampler,200,OK,Product Request 1-5,text,true,,362,0,6,6,null,0,0,0
+1739696192071,296,Get all products,200,OK,Product Request 1-2,text,true,,2075,144,6,6,https://simple-grocery-store-api.glitch.me/products,296,0,0
+1739696192219,402,Get single product,200,OK,Product Request 1-6,text,true,,18249,183,6,6,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,393,0,0
+1739696192622,0,Debug Sampler,200,OK,Product Request 1-6,text,true,,361,0,6,6,null,0,0,0
+1739696192225,400,Get single product,200,OK,Product Request 1-14,text,true,,18249,183,5,5,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,391,0,0
+1739696192626,1,Debug Sampler,200,OK,Product Request 1-14,text,true,,363,0,5,5,null,0,0,0
+1739696192356,305,Get all products,200,OK,Product Request 1-5,text,true,,2075,144,4,4,https://simple-grocery-store-api.glitch.me/products,305,0,0
+1739696192229,643,Get single product,200,OK,Product Request 1-13,text,true,,18249,183,4,4,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,633,0,0
+1739696192872,0,Debug Sampler,200,OK,Product Request 1-13,text,true,,362,0,4,4,null,0,0,0
+1739696192373,590,Get single product,200,OK,Product Request 1-2,text,true,,18249,183,3,3,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,582,0,0
+1739696192964,0,Debug Sampler,200,OK,Product Request 1-2,text,true,,362,0,3,3,null,0,0,0
+1739696192666,349,Get single product,200,OK,Product Request 1-5,text,true,,18249,183,2,2,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,340,0,0
+1739696193016,1,Debug Sampler,200,OK,Product Request 1-5,text,true,,362,0,2,2,null,0,0,0
+1739696191909,1264,Get single product,200,OK,Product Request 1-8,text,true,,18249,183,1,1,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,1023,0,0
+1739696193173,1,Debug Sampler,200,OK,Product Request 1-8,text,true,,362,0,1,1,null,0,0,0
+1739696193174,299,Get all products,200,OK,Product Request 1-8,text,true,,2075,144,1,1,https://simple-grocery-store-api.glitch.me/products,299,0,0
+1739696193477,309,Get single product,200,OK,Product Request 1-8,text,true,,18249,183,1,1,https://simple-grocery-store-api.glitch.me/products/4643?productId=4643&product-label=true,300,0,0
+1739696193791,0,Debug Sampler,200,OK,Product Request 1-8,text,true,,362,0,1,1,null,0,0,0
+1739696193799,620,Create cart,201,Created,Cart Request 2-1,text,true,,410,225,7,7,https://simple-grocery-store-api.glitch.me/carts,619,0,142
+1739696193925,1206,Create cart,201,Created,Cart Request 2-2,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,1206,0,120
+1739696194026,1435,Create cart,201,Created,Cart Request 2-3,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,1434,0,121
+1739696194122,1619,Create cart,201,Created,Cart Request 2-4,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,1618,0,122
+1739696194221,1792,Create cart,201,Created,Cart Request 2-5,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,1792,0,108
+1739696194311,1999,Create cart,201,Created,Cart Request 2-6,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,1999,0,119
+1739696194526,2085,Add item to cart,201,Created,Cart Request 2-1,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/1zbNV4LyqRmwTg5fkVgrc/items,2085,0,0
+1739696194422,2313,Create cart,201,Created,Cart Request 2-7,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2313,0,129
+1739696194523,2395,Create cart,201,Created,Cart Request 2-8,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2395,0,104
+1739696194615,2609,Create cart,201,Created,Cart Request 2-9,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2609,0,118
+1739696194713,2909,Create cart,201,Created,Cart Request 2-10,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2908,0,110
+1739696195140,2788,Add item to cart,201,Created,Cart Request 2-2,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/Muz4l0NGGBlyzQ6IdsPUV/items,2788,0,0
+1739696195749,2468,Add item to cart,201,Created,Cart Request 2-4,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/zIiAqcIqLs6B_IkGfFWAc/items,2468,0,0
+1739696196018,2484,Add item to cart,201,Created,Cart Request 2-5,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/QyHvMP_iTD8kDrJGeCaTe/items,2484,0,0
+1739696195466,3256,Add item to cart,201,Created,Cart Request 2-3,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/FKxP4TphIVTq8q3--SAN_/items,3256,0,0
+1739696196613,2313,Get cart item,200,OK,Cart Request 2-1,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/1zbNV4LyqRmwTg5fkVgrc,2313,0,0
+1739696196312,2614,Add item to cart,201,Created,Cart Request 2-6,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/Mxmn1ffK8hZM6IXBhDrPx/items,2614,0,0
+1739696196741,2480,Add item to cart,201,Created,Cart Request 2-7,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/tAez6qDRJ1bQ-CjV4Z2JP/items,2480,0,0
+1739696197227,2196,Add item to cart,201,Created,Cart Request 2-9,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/haO5PGZPcqax1IsQdKTdc/items,2195,0,0
+1739696197629,1997,Add item to cart,201,Created,Cart Request 2-10,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/EGLg6t1cICQaQdMJA0JWj/items,1997,0,0
+1739696196922,2989,Add item to cart,201,Created,Cart Request 2-8,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/hX-fe2y1WdVO6fQS_NX-J/items,2989,0,0
+1739696198503,1419,Get cart item,200,OK,Cart Request 2-5,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/QyHvMP_iTD8kDrJGeCaTe,1419,0,0
+1739696197929,1998,Get cart item,200,OK,Cart Request 2-2,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/Muz4l0NGGBlyzQ6IdsPUV,1998,0,0
+1739696198725,1203,Get cart item,200,OK,Cart Request 2-3,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/FKxP4TphIVTq8q3--SAN_,1203,0,0
+1739696198219,1708,Get cart item,200,OK,Cart Request 2-4,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/zIiAqcIqLs6B_IkGfFWAc,1708,0,0
+1739696198928,1082,Check cart,200,OK,Cart Request 2-1,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/1zbNV4LyqRmwTg5fkVgrc,1082,0,0
+1739696198928,1084,Get cart item,200,OK,Cart Request 2-6,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/Mxmn1ffK8hZM6IXBhDrPx,1084,0,0
+1739696199429,595,Get cart item,200,OK,Cart Request 2-9,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/haO5PGZPcqax1IsQdKTdc,595,0,0
+1739696199629,403,Get cart item,200,OK,Cart Request 2-10,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/EGLg6t1cICQaQdMJA0JWj,402,0,0
+1739696199915,303,Get cart item,200,OK,Cart Request 2-8,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/hX-fe2y1WdVO6fQS_NX-J,303,0,0
+1739696199924,312,Check cart,200,OK,Cart Request 2-5,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/QyHvMP_iTD8kDrJGeCaTe,312,0,0
+1739696199929,325,Check cart,200,OK,Cart Request 2-2,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/Muz4l0NGGBlyzQ6IdsPUV,324,0,0
+1739696199929,326,Check cart,200,OK,Cart Request 2-3,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/FKxP4TphIVTq8q3--SAN_,326,0,0
+1739696199929,328,Check cart,200,OK,Cart Request 2-4,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/zIiAqcIqLs6B_IkGfFWAc,328,0,0
+1739696199225,1038,Get cart item,200,OK,Cart Request 2-7,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/tAez6qDRJ1bQ-CjV4Z2JP,1038,0,0
+1739696200013,311,Check cart,200,OK,Cart Request 2-6,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/Mxmn1ffK8hZM6IXBhDrPx,311,0,0
+1739696200024,309,Check cart,200,OK,Cart Request 2-9,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/haO5PGZPcqax1IsQdKTdc,309,0,0
+1739696200039,300,Check cart,200,OK,Cart Request 2-10,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/EGLg6t1cICQaQdMJA0JWj,300,0,0
+1739696200219,499,Check cart,200,OK,Cart Request 2-8,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/hX-fe2y1WdVO6fQS_NX-J,498,0,0
+1739696200164,562,Modify item in cart,204,No Content,Cart Request 2-1,,true,,255,260,10,10,https://simple-grocery-store-api.glitch.me/carts/1zbNV4LyqRmwTg5fkVgrc/items/997039703,0,0,0
+1739696200727,0,Debug Sampler,200,OK,Cart Request 2-1,text,true,,424,0,10,10,null,0,0,0
+1739696200240,695,Modify item in cart,204,No Content,Cart Request 2-5,,true,,255,260,10,10,https://simple-grocery-store-api.glitch.me/carts/QyHvMP_iTD8kDrJGeCaTe/items/274335563,0,0,0
+1739696200936,0,Debug Sampler,200,OK,Cart Request 2-5,text,true,,424,0,10,10,null,0,0,0
+1739696200256,987,Modify item in cart,204,No Content,Cart Request 2-2,,true,,255,260,10,10,https://simple-grocery-store-api.glitch.me/carts/Muz4l0NGGBlyzQ6IdsPUV/items/402451253,0,0,0
+1739696201244,0,Debug Sampler,200,OK,Cart Request 2-2,text,true,,424,0,10,10,null,0,0,0
+1739696200259,1264,Modify item in cart,204,No Content,Cart Request 2-4,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/zIiAqcIqLs6B_IkGfFWAc/items/627759602,0,0,0
+1739696201524,0,Debug Sampler,200,OK,Cart Request 2-4,text,true,,424,0,10,10,null,0,0,0
+1739696200257,1466,Modify item in cart,204,No Content,Cart Request 2-3,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/FKxP4TphIVTq8q3--SAN_/items/580702477,0,0,0
+1739696201724,0,Debug Sampler,200,OK,Cart Request 2-3,text,true,,424,0,10,10,null,0,0,0
+1739696200325,1592,Modify item in cart,204,No Content,Cart Request 2-6,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/Mxmn1ffK8hZM6IXBhDrPx/items/742574146,0,0,0
+1739696201918,0,Debug Sampler,200,OK,Cart Request 2-6,text,true,,424,0,10,10,null,0,0,0
+1739696200335,1893,Modify item in cart,204,No Content,Cart Request 2-9,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/haO5PGZPcqax1IsQdKTdc/items/238148261,0,0,0
+1739696202229,0,Debug Sampler,200,OK,Cart Request 2-9,text,true,,424,0,10,10,null,0,0,0
+1739696200340,2085,Modify item in cart,204,No Content,Cart Request 2-10,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/EGLg6t1cICQaQdMJA0JWj/items/318371835,0,0,0
+1739696202426,1,Debug Sampler,200,OK,Cart Request 2-10,text,true,,425,0,10,10,null,0,0,0
+1739696200721,2003,Modify item in cart,204,No Content,Cart Request 2-8,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/hX-fe2y1WdVO6fQS_NX-J/items/623728746,0,0,0
+1739696202726,0,Debug Sampler,200,OK,Cart Request 2-8,text,true,,424,0,10,10,null,0,0,0
+1739696200728,2297,Create cart,201,Created,Cart Request 2-1,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2297,0,0
+1739696200937,2283,Create cart,201,Created,Cart Request 2-5,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2283,0,0
+1739696200263,2971,Check cart,200,OK,Cart Request 2-7,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/tAez6qDRJ1bQ-CjV4Z2JP,2970,0,0
+1739696201245,2287,Create cart,201,Created,Cart Request 2-2,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2287,0,0
+1739696201525,2217,Create cart,201,Created,Cart Request 2-4,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2217,0,0
+1739696201725,2283,Create cart,201,Created,Cart Request 2-3,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2283,0,0
+1739696201922,2311,Create cart,201,Created,Cart Request 2-6,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2311,0,0
+1739696202229,2278,Create cart,201,Created,Cart Request 2-9,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2278,0,0
+1739696202427,2306,Create cart,201,Created,Cart Request 2-10,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2306,0,0
+1739696202727,2276,Create cart,201,Created,Cart Request 2-8,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2276,0,0
+1739696203029,2200,Add item to cart,201,Created,Cart Request 2-1,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/T7xqWokK6yLMaLw1TTvqb/items,2199,0,0
+1739696203227,2306,Add item to cart,201,Created,Cart Request 2-5,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/oncNZWS2mwpNjxBqLBHO_/items,2305,0,0
+1739696203239,2583,Modify item in cart,204,No Content,Cart Request 2-7,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/tAez6qDRJ1bQ-CjV4Z2JP/items/915070027,0,0,0
+1739696205823,0,Debug Sampler,200,OK,Cart Request 2-7,text,true,,424,0,10,10,null,0,0,0
+1739696203535,2509,Add item to cart,201,Created,Cart Request 2-2,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/iJWRWiOjVYqYXLy5RfLKU/items,2509,0,0
+1739696204011,2405,Add item to cart,201,Created,Cart Request 2-3,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/c1ZN_AIW5poB5oPYntzJV/items,2405,0,0
+1739696204239,2396,Add item to cart,201,Created,Cart Request 2-6,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/RSla2ZT9K4LdRKTZ7SD0J/items,2396,0,0
+1739696203744,3166,Add item to cart,201,Created,Cart Request 2-4,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/VIfxStLBggUE6EbzmOVSN/items,3166,0,0
+1739696204513,2598,Add item to cart,201,Created,Cart Request 2-9,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/SWPhSZKfKyYyQ12oPYh9E/items,2598,0,0
+1739696204737,2591,Add item to cart,201,Created,Cart Request 2-10,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/-hQx3cf-BwlVHNeixUd0a/items,2591,0,0
+1739696205230,2169,Get cart item,200,OK,Cart Request 2-1,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/T7xqWokK6yLMaLw1TTvqb,2169,0,0
+1739696205534,1902,Get cart item,200,OK,Cart Request 2-5,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/oncNZWS2mwpNjxBqLBHO_,1902,0,0
+1739696205008,2714,Add item to cart,201,Created,Cart Request 2-8,text,true,,397,265,10,10,https://simple-grocery-store-api.glitch.me/carts/SQWDMR-WlZOTC7X4IHuLv/items,2714,0,0
+1739696206045,1906,Get cart item,200,OK,Cart Request 2-2,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/iJWRWiOjVYqYXLy5RfLKU,1906,0,0
+1739696205825,2130,Create cart,201,Created,Cart Request 2-7,text,true,,411,225,10,10,https://simple-grocery-store-api.glitch.me/carts,2130,0,0
+1739696206417,1592,Get cart item,200,OK,Cart Request 2-3,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/c1ZN_AIW5poB5oPYntzJV,1592,0,0
+1739696207329,688,Get cart item,200,OK,Cart Request 2-10,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/-hQx3cf-BwlVHNeixUd0a,687,0,0
+1739696206637,1382,Get cart item,200,OK,Cart Request 2-6,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/RSla2ZT9K4LdRKTZ7SD0J,1382,0,0
+1739696207112,911,Get cart item,200,OK,Cart Request 2-9,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/SWPhSZKfKyYyQ12oPYh9E,911,0,0
+1739696206911,1116,Get cart item,200,OK,Cart Request 2-4,text,true,,452,163,10,10,https://simple-grocery-store-api.glitch.me/carts/VIfxStLBggUE6EbzmOVSN,1116,0,0
+1739696207399,708,Check cart,200,OK,Cart Request 2-1,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/T7xqWokK6yLMaLw1TTvqb,707,0,0
+1739696207437,670,Check cart,200,OK,Cart Request 2-5,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/oncNZWS2mwpNjxBqLBHO_,670,0,0
+1739696207723,398,Get cart item,200,OK,Cart Request 2-8,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/SQWDMR-WlZOTC7X4IHuLv,398,0,0
+1739696207953,369,Check cart,200,OK,Cart Request 2-2,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/iJWRWiOjVYqYXLy5RfLKU,369,0,0
+1739696207958,779,Add item to cart,201,Created,Cart Request 2-7,text,true,,396,265,10,10,https://simple-grocery-store-api.glitch.me/carts/uI3CB9B52bq_IPMDPpi93/items,779,0,0
+1739696208018,791,Check cart,200,OK,Cart Request 2-10,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/-hQx3cf-BwlVHNeixUd0a,791,0,0
+1739696208024,892,Check cart,200,OK,Cart Request 2-9,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/SWPhSZKfKyYyQ12oPYh9E,892,0,0
+1739696208009,908,Check cart,200,OK,Cart Request 2-3,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/c1ZN_AIW5poB5oPYntzJV,908,0,0
+1739696208027,988,Check cart,200,OK,Cart Request 2-4,text,true,,451,163,10,10,https://simple-grocery-store-api.glitch.me/carts/VIfxStLBggUE6EbzmOVSN,988,0,0
+1739696208110,1199,Modify item in cart,204,No Content,Cart Request 2-1,,true,,256,260,10,10,https://simple-grocery-store-api.glitch.me/carts/T7xqWokK6yLMaLw1TTvqb/items/332203818,0,0,0
+1739696209309,0,Debug Sampler,200,OK,Cart Request 2-1,text,true,,424,0,10,10,null,0,0,0
+1739696208110,1413,Modify item in cart,204,No Content,Cart Request 2-5,,true,,256,260,9,9,https://simple-grocery-store-api.glitch.me/carts/oncNZWS2mwpNjxBqLBHO_/items/378095586,0,0,0
+1739696209522,0,Debug Sampler,200,OK,Cart Request 2-5,text,true,,424,0,9,9,null,0,0,0
+1739696208122,1406,Check cart,200,OK,Cart Request 2-8,text,true,,452,163,8,8,https://simple-grocery-store-api.glitch.me/carts/SQWDMR-WlZOTC7X4IHuLv,1406,0,0
+1739696208325,1423,Modify item in cart,204,No Content,Cart Request 2-2,,true,,256,260,8,8,https://simple-grocery-store-api.glitch.me/carts/iJWRWiOjVYqYXLy5RfLKU/items/840499625,0,0,0
+1739696209749,1,Debug Sampler,200,OK,Cart Request 2-2,text,true,,424,0,8,8,null,0,0,0
+1739696208022,1790,Check cart,200,OK,Cart Request 2-6,text,true,,452,163,7,7,https://simple-grocery-store-api.glitch.me/carts/RSla2ZT9K4LdRKTZ7SD0J,1790,0,0
+1739696208737,1079,Get cart item,200,OK,Cart Request 2-7,text,true,,452,163,7,7,https://simple-grocery-store-api.glitch.me/carts/uI3CB9B52bq_IPMDPpi93,1079,0,0
+1739696208811,1212,Modify item in cart,204,No Content,Cart Request 2-10,,true,,256,260,7,7,https://simple-grocery-store-api.glitch.me/carts/-hQx3cf-BwlVHNeixUd0a/items/992889014,0,0,0
+1739696210024,1,Debug Sampler,200,OK,Cart Request 2-10,text,true,,425,0,7,7,null,0,0,0
+1739696208918,1400,Modify item in cart,204,No Content,Cart Request 2-9,,true,,256,260,6,6,https://simple-grocery-store-api.glitch.me/carts/SWPhSZKfKyYyQ12oPYh9E/items/643776893,0,0,0
+1739696210319,0,Debug Sampler,200,OK,Cart Request 2-9,text,true,,424,0,6,6,null,0,0,0
+1739696209017,1494,Modify item in cart,204,No Content,Cart Request 2-4,,true,,256,260,5,5,https://simple-grocery-store-api.glitch.me/carts/VIfxStLBggUE6EbzmOVSN/items/876093705,0,0,0
+1739696210516,0,Debug Sampler,200,OK,Cart Request 2-4,text,true,,424,0,5,5,null,0,0,0
+1739696209530,1195,Modify item in cart,204,No Content,Cart Request 2-8,,true,,256,260,4,4,https://simple-grocery-store-api.glitch.me/carts/SQWDMR-WlZOTC7X4IHuLv/items/486237186,0,0,0
+1739696210726,0,Debug Sampler,200,OK,Cart Request 2-8,text,true,,424,0,4,4,null,0,0,0
+1739696208923,2095,Modify item in cart,204,No Content,Cart Request 2-3,,true,,256,260,3,3,https://simple-grocery-store-api.glitch.me/carts/c1ZN_AIW5poB5oPYntzJV/items/944860371,0,0,0
+1739696211019,1,Debug Sampler,200,OK,Cart Request 2-3,text,true,,424,0,3,3,null,0,0,0
+1739696209816,1405,Modify item in cart,204,No Content,Cart Request 2-6,,true,,256,260,2,2,https://simple-grocery-store-api.glitch.me/carts/RSla2ZT9K4LdRKTZ7SD0J/items/732233597,0,0,0
+1739696211222,0,Debug Sampler,200,OK,Cart Request 2-6,text,true,,424,0,2,2,null,0,0,0
+1739696209817,1416,Check cart,200,OK,Cart Request 2-7,text,true,,452,163,1,1,https://simple-grocery-store-api.glitch.me/carts/uI3CB9B52bq_IPMDPpi93,1416,0,0
+1739696211240,487,Modify item in cart,204,No Content,Cart Request 2-7,,true,,255,260,1,1,https://simple-grocery-store-api.glitch.me/carts/uI3CB9B52bq_IPMDPpi93/items/667081374,0,0,0
+1739696211728,0,Debug Sampler,200,OK,Cart Request 2-7,text,true,,424,0,1,1,null,0,0,0

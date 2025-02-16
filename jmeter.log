@@ -1,29 +1,409 @@
-2025-02-16 14:22:27,601 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-02-16 14:22:27,796 INFO o.a.j.JMeter: Loading user properties from: C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
-2025-02-16 14:22:27,807 INFO o.a.j.JMeter: Loading system properties from: C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: Version 5.6.3
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: java.version=21.0.5
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: os.name=Windows 11
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: os.arch=amd64
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: os.version=10.0
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: file.encoding=UTF-8
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: java.awt.headless=true
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-02-16 14:22:27,919 INFO o.a.j.JMeter: Available Processors =4
-2025-02-16 14:22:27,985 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-02-16 14:22:27,985 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-02-16 14:22:27,985 INFO o.a.j.JMeter: JMeterHome=C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3
-2025-02-16 14:22:27,989 INFO o.a.j.JMeter: user.dir  =C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest
-2025-02-16 14:22:27,994 INFO o.a.j.JMeter: PWD       =C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest
-2025-02-16 14:22:27,994 INFO o.a.j.JMeter: IP: 192.168.1.7 Name: DESKTOP-EQGDIG6 FullName: DESKTOP-EQGDIG6
-2025-02-16 14:22:28,105 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport'
-2025-02-16 14:22:28,105 ERROR o.a.j.JMeter: An error occurred: 
-org.apache.jmeter.report.config.ConfigurationException: The file C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\SimpleGroceryAPI_Test.jmx doesn't exist or can't be opened
-	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:950) ~[ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) ~[ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.JMeter.start(JMeter.java:508) [ApacheJMeter_core.jar:5.6.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+2025-02-16 14:26:20,051 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-02-16 14:26:20,102 INFO o.a.j.JMeter: Loading user properties from: C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2025-02-16 14:26:20,112 INFO o.a.j.JMeter: Loading system properties from: C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: Version 5.6.3
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: java.version=21.0.5
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: os.name=Windows 11
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: os.arch=amd64
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: os.version=10.0
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: java.awt.headless=true
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-02-16 14:26:20,128 INFO o.a.j.JMeter: Available Processors =4
+2025-02-16 14:26:20,153 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-02-16 14:26:20,153 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-02-16 14:26:20,153 INFO o.a.j.JMeter: JMeterHome=C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-02-16 14:26:20,153 INFO o.a.j.JMeter: user.dir  =C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest
+2025-02-16 14:26:20,159 INFO o.a.j.JMeter: PWD       =C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest
+2025-02-16 14:26:20,159 INFO o.a.j.JMeter: IP: 192.168.1.7 Name: DESKTOP-EQGDIG6 FullName: DESKTOP-EQGDIG6
+2025-02-16 14:26:20,194 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport'
+2025-02-16 14:26:20,194 INFO o.a.j.s.FileServer: Default base='C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest'
+2025-02-16 14:26:20,210 INFO o.a.j.s.FileServer: Set new base='C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest'
+2025-02-16 14:26:20,892 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-02-16 14:26:20,992 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-02-16 14:26:20,996 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-02-16 14:26:21,012 INFO o.a.j.s.SaveService: Loading file: SimpleGroceryAPI_Test.jmx
+2025-02-16 14:26:21,212 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-16 14:26:21,212 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-16 14:26:21,212 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-16 14:26:21,212 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-16 14:26:21,212 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-02-16 14:26:21,212 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-02-16 14:26:21,599 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-02-16 14:26:21,658 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-02-16 14:26:21,662 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: CSVresult.csv
+2025-02-16 14:26:21,662 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-02-16 14:26:21,667 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-02-16 14:26:21,688 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-02-16 14:26:21,709 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-16 14:26:21,733 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-02-16 14:26:21,733 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-02-16 14:26:21,733 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-02-16 14:26:21,735 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-02-16 14:26:21,735 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-02-16 14:26:21,737 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-02-16 14:26:21,848 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-16 14:26:21,855 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-16 14:26:21,855 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-16 14:26:21,877 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-02-16 14:26:21,879 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-02-16 14:26:23,164 INFO o.a.j.JMeter: Running test (1739696183164)
+2025-02-16 14:26:23,218 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Product Request
+2025-02-16 14:26:23,218 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Product Request.
+2025-02-16 14:26:23,219 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-16 14:26:23,219 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2025-02-16 14:26:23,259 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-1
+2025-02-16 14:26:23,310 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-16 14:26:23,311 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Product Request to finish before starting next group
+2025-02-16 14:26:23,334 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-2
+2025-02-16 14:26:23,360 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-3
+2025-02-16 14:26:23,365 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-EQGDIG6
+2025-02-16 14:26:23,397 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-02-16 14:26:23,401 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-02-16 14:26:23,401 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-02-16 14:26:23,401 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-02-16 14:26:23,401 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-02-16 14:26:23,412 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-4
+2025-02-16 14:26:23,492 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-5
+2025-02-16 14:26:23,509 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-6
+2025-02-16 14:26:23,557 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-7
+2025-02-16 14:26:23,609 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-8
+2025-02-16 14:26:23,661 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-9
+2025-02-16 14:26:23,694 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-10
+2025-02-16 14:26:23,742 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-11
+2025-02-16 14:26:23,790 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-12
+2025-02-16 14:26:23,811 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-02-16 14:26:23,828 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-02-16 14:26:23,828 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-02-16 14:26:23,843 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-13
+2025-02-16 14:26:23,886 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-14
+2025-02-16 14:26:23,937 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-15
+2025-02-16 14:26:23,995 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-16
+2025-02-16 14:26:24,035 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-17
+2025-02-16 14:26:24,084 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-18
+2025-02-16 14:26:24,129 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-19
+2025-02-16 14:26:24,177 INFO o.a.j.t.JMeterThread: Thread started: Product Request 1-20
+2025-02-16 14:26:24,251 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-02-16 14:26:24,277 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-02-16 14:26:24,278 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-02-16 14:26:29,283 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,283 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:29,292 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:29,283 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,293 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,294 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:29,295 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,296 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:29,296 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,296 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,296 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,297 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,297 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:29,297 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,297 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,298 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:29,298 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,298 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:29,298 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,298 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:29,374 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,378 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,379 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,380 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:29,380 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,381 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:29,381 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,382 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:29,382 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,382 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:29,382 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:29,383 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:29,383 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:29,383 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:29,383 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:29,383 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:29,384 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:29,388 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:29,389 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:29,384 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:30,095 INFO o.a.j.r.Summariser: summary +     31 in 00:00:07 =    4.5/s Avg:  1898 Min:     0 Max:  3256 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2025-02-16 14:26:30,207 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:30,207 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:30,239 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,239 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:30,311 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:30,311 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:30,314 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:30,314 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:30,432 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:30,432 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:30,607 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:30,607 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:30,627 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:30,627 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:30,708 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:30,708 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,713 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:30,728 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,728 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:30,728 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:30,728 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:30,728 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,728 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:30,817 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:30,817 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,006 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,006 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,118 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:31,118 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:31,230 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,230 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,277 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,277 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,308 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,308 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,324 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,324 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,327 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,327 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,357 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,357 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,374 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,374 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,394 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:31,395 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:31,443 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-1
+2025-02-16 14:26:31,443 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-1
+2025-02-16 14:26:31,447 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,447 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,451 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:31,451 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:31,495 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:31,495 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:31,558 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-16
+2025-02-16 14:26:31,558 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-16
+2025-02-16 14:26:31,558 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,558 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,574 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,574 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,590 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,590 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,610 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4646
+2025-02-16 14:26:31,613 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4646
+2025-02-16 14:26:31,735 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-15
+2025-02-16 14:26:31,735 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-15
+2025-02-16 14:26:31,840 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-11
+2025-02-16 14:26:31,840 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-11
+2025-02-16 14:26:31,887 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-7
+2025-02-16 14:26:31,887 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-7
+2025-02-16 14:26:31,887 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-4
+2025-02-16 14:26:31,887 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-4
+2025-02-16 14:26:31,903 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:31,912 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:31,925 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-3
+2025-02-16 14:26:31,925 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-3
+2025-02-16 14:26:31,930 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-18
+2025-02-16 14:26:31,930 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-18
+2025-02-16 14:26:31,934 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-10
+2025-02-16 14:26:31,934 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-10
+2025-02-16 14:26:32,024 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-19
+2025-02-16 14:26:32,024 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-19
+2025-02-16 14:26:32,161 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-17
+2025-02-16 14:26:32,161 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-17
+2025-02-16 14:26:32,181 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-9
+2025-02-16 14:26:32,181 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-9
+2025-02-16 14:26:32,205 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:32,221 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:32,221 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:32,221 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:32,221 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:32,221 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:32,242 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-12
+2025-02-16 14:26:32,242 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-12
+2025-02-16 14:26:32,268 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-20
+2025-02-16 14:26:32,268 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-20
+2025-02-16 14:26:32,363 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:32,363 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:32,617 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-6
+2025-02-16 14:26:32,617 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-6
+2025-02-16 14:26:32,617 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-14
+2025-02-16 14:26:32,632 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-14
+2025-02-16 14:26:32,655 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4643
+2025-02-16 14:26:32,667 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4643
+2025-02-16 14:26:32,876 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-13
+2025-02-16 14:26:32,876 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-13
+2025-02-16 14:26:32,968 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-2
+2025-02-16 14:26:32,968 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-2
+2025-02-16 14:26:33,018 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-5
+2025-02-16 14:26:33,018 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-5
+2025-02-16 14:26:33,479 INFO o.a.j.e.J.JSR223 PostProcessor: Extracted Coffee Product IDs: 4641
+2025-02-16 14:26:33,479 INFO o.a.j.e.J.JSR223 PostProcessor: Random Coffee Product ID: 4641
+2025-02-16 14:26:33,783 INFO o.a.j.t.JMeterThread: Thread is done: Product Request 1-8
+2025-02-16 14:26:33,783 INFO o.a.j.t.JMeterThread: Thread finished: Product Request 1-8
+2025-02-16 14:26:33,794 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Cart Request
+2025-02-16 14:26:33,794 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Cart Request.
+2025-02-16 14:26:33,794 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-16 14:26:33,794 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-16 14:26:33,794 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-1
+2025-02-16 14:26:33,811 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-16 14:26:33,811 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-16 14:26:33,923 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-2
+2025-02-16 14:26:34,022 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-3
+2025-02-16 14:26:34,119 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-4
+2025-02-16 14:26:34,218 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-5
+2025-02-16 14:26:34,310 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-6
+2025-02-16 14:26:34,416 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-7
+2025-02-16 14:26:34,520 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-8
+2025-02-16 14:26:34,524 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:34,526 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:34,614 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-9
+2025-02-16 14:26:34,712 INFO o.a.j.t.JMeterThread: Thread started: Cart Request 2-10
+2025-02-16 14:26:35,135 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:35,135 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:35,465 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:35,466 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:35,740 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:35,740 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:36,015 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:36,015 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:36,308 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:36,308 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:36,729 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:36,729 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:36,920 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:36,920 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:37,227 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:37,227 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:37,617 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:37,617 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:40,152 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 5
+2025-02-16 14:26:40,230 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 2
+2025-02-16 14:26:40,246 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:40,246 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 4
+2025-02-16 14:26:40,246 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:40,317 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 5
+2025-02-16 14:26:40,327 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:40,340 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 5
+2025-02-16 14:26:40,716 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 4
+2025-02-16 14:26:43,019 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:43,019 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:43,216 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:43,226 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:43,233 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 4
+2025-02-16 14:26:43,527 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:43,527 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:43,738 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:43,738 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:44,004 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:44,004 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:44,234 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:44,234 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:44,504 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:44,504 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:44,723 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:44,723 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:45,007 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:45,007 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:47,950 INFO o.a.j.m.J.JSR223 PreProcessor: Final Product ID in Cart Request: 4641
+2025-02-16 14:26:47,950 INFO o.a.j.m.J.JSR223 PreProcessor: The random coffee product Id which is passed in cart is: 4641
+2025-02-16 14:26:48,106 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:48,106 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 4
+2025-02-16 14:26:48,322 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:48,807 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:48,906 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 4
+2025-02-16 14:26:48,920 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 2
+2025-02-16 14:26:49,015 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 1
+2025-02-16 14:26:49,302 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-1
+2025-02-16 14:26:49,302 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-1
+2025-02-16 14:26:49,523 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-5
+2025-02-16 14:26:49,523 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-5
+2025-02-16 14:26:49,527 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 2
+2025-02-16 14:26:49,745 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-2
+2025-02-16 14:26:49,745 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-2
+2025-02-16 14:26:49,813 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 2
+2025-02-16 14:26:50,016 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-10
+2025-02-16 14:26:50,016 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-10
+2025-02-16 14:26:50,318 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-9
+2025-02-16 14:26:50,318 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-9
+2025-02-16 14:26:50,510 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-4
+2025-02-16 14:26:50,510 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-4
+2025-02-16 14:26:50,723 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-8
+2025-02-16 14:26:50,723 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-8
+2025-02-16 14:26:51,019 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-3
+2025-02-16 14:26:51,019 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-3
+2025-02-16 14:26:51,211 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-6
+2025-02-16 14:26:51,211 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-6
+2025-02-16 14:26:51,225 INFO o.a.j.m.J.JSR223 PreProcessor: Generated random quantity: 2
+2025-02-16 14:26:51,726 INFO o.a.j.t.JMeterThread: Thread is done: Cart Request 2-7
+2025-02-16 14:26:51,726 INFO o.a.j.t.JMeterThread: Thread finished: Cart Request 2-7
+2025-02-16 14:26:51,726 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-16 14:26:51,760 INFO o.a.j.r.Summariser: summary +    269 in 00:00:22 =   12.4/s Avg:   796 Min:     0 Max:  3256 Err:     0 (0.00%) Active: 0 Started: 30 Finished: 30
+2025-02-16 14:26:51,760 INFO o.a.j.r.Summariser: summary =    300 in 00:00:29 =   10.5/s Avg:   910 Min:     0 Max:  3256 Err:     0 (0.00%)
+2025-02-16 14:26:51,769 INFO o.a.j.JMeter: Generating Dashboard
+2025-02-16 14:26:51,771 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-02-16 14:26:51,814 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-02-16 14:26:52,158 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-02-16 14:26:52,158 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-02-16 14:26:52,168 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-02-16 14:26:52,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-02-16 14:26:52,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-02-16 14:26:52,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-02-16 14:26:52,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-02-16 14:26:52,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-02-16 14:26:52,263 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-02-16 14:26:52,276 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-02-16 14:26:52,295 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-02-16 14:26:52,302 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-02-16 14:26:52,360 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-02-16 14:26:52,362 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 2100 samples
+2025-02-16 14:26:52,373 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-02-16 14:26:52,373 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-02-16 14:26:52,373 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-02-16 14:26:52,373 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-02-16 14:26:52,373 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-02-16 14:26:52,373 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-02-16 14:26:52,391 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-02-16 14:26:52,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-02-16 14:26:52,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-02-16 14:26:52,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-02-16 14:26:52,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 4500 samples
+2025-02-16 14:26:52,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 900 samples
+2025-02-16 14:26:52,395 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 300 samples
+2025-02-16 14:26:52,405 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 300 samples produced in 535ms on channel 0
+2025-02-16 14:26:52,405 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-02-16 14:26:52,702 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-02-16 14:26:52,702 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-02-16 14:26:52,702 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-02-16 14:26:52,702 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-02-16 14:26:52,702 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport\statistics.json
+2025-02-16 14:26:52,869 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-02-16 14:26:52,871 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport
+2025-02-16 14:26:53,488 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport, creating folder structure
+2025-02-16 14:26:53,504 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\DELL\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport', got message: C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport, found non empty folder with following content [C:\Users\DELL\Desktop\SimpleGroceryAPI_JmeterTest\HTMLreport\statistics.json], will be ignored
+2025-02-16 14:26:55,526 INFO o.a.j.JMeter: Dashboard generated
